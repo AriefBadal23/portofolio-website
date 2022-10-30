@@ -1,4 +1,4 @@
-const header = {
+export const header = {
     homepage: '',
     title: 'AB.'
 };
@@ -8,7 +8,7 @@ export const about = {
     role: 'Software developer student',
     description: 'Hi, my name is Arief I currently do a Software developer education at Rotterdam Academy',
     social: {
-        linkedin: 'https://www.Linkedin.nl',
+        linkedin: 'https://www.linkedin.com/',
         github: 'https://Github.com'
     },
 };
