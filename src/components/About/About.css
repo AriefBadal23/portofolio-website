@@ -1,8 +1,14 @@
 .about-section{
-    color: rgb(15, 16, 15);
+    color: rgb(#444444);
     text-align: center;
 }
 
 .about-name{
     color: #2978b5;
+    font-size: larger;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    
 }

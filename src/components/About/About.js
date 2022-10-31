@@ -9,11 +9,12 @@ function About() {
     } } = about;
     return (
         <div className='about-section'>
-            <h2>Hi, I am <h2 className='about-name'>{name}</h2></h2>
+            <h1>Hi, I am  <span className='about-name'>{name}.</span></h1>
             <h2 className='about-role'>A {role}</h2>
             <h3>{description}</h3>
-            <LinkedInIcon /><a href={linkedin}></a>
-            <GitHubIcon /><a href={github}></a>
+
+            <a href={github}><GitHubIcon /></a>
+            <a href={linkedin}><LinkedInIcon /></a>
         </div>
     );
 }
