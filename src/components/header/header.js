@@ -1,15 +1,10 @@
-import { Button } from '@mui/material';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import {header} from '../portofolio'
-
+import './header.css';
+import { header } from '../portofolio';
 function Header() {
-    const {homepage, title} = header
-    return ( 
-        <div>
-        <p>{title}</p>
-        <Button variant='outlined'>Test</Button>
-        </div>
-     );
+  const { homepage, title } = header;
+  return (
+    <h1 className='header-title'>{title}</h1 >
+  );
 }
-
+; 
 export default Header;
