@@ -1,0 +1,14 @@
+.Navbar-item{
+    color: #444444;
+    margin: 10px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+}
+a:link{
+    color: #444444;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(152, 152, 156);
+}
