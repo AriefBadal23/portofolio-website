@@ -1,3 +1,7 @@
+.Navbar{
+    text-align: right;
+    margin: 20px;
+}
 .Navbar-item{
     color: #444444;
     margin: 10px;
