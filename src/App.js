@@ -1,15 +1,20 @@
 import './App.css';
 import About from './components/About/About';
-import Skills from './components/Skills/Skills';
-import Header from './components/header/header';
+// import Skills from './components/Skills/Skills';
+import Header from './components/Header/header';
+import Project from './components/Projects/projects';
+import Navbar from './components/Navbar/Navbar';
+
 
 // about details tonen op scherm 26-okt
 function App() {
   return (
     <div className='App'>
+      <Navbar/>
       <Header/>
       <About/>
-      <Skills/>
+      <Project/>
+      {/* <Skills/> */}
     </div>
     
   );
