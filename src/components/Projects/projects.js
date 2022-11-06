@@ -1,15 +1,17 @@
 import { projects } from "../portofolio";
-import './projects.css'
+import ProjectContainer from "../Projectcontainer/projectcontainer";
+import "./projects.css";
 
-function Project() {
-    const {project1, project2, project3, project4, project5} = projects
-    return ( 
-        <div className="projects-container">
-            {/* .map() gebruiken en een kaart maken voor ieder project */}
-            <h1>Projects</h1>
-        </div>
 
-     );
+function Projects() {
+  return (
+    <div className="project_container">
+      <h1>Project</h1>
+      {projects.map((item) => (
+        <ProjectContainer project={item} />
+      ))}
+    </div>
+  );
 }
 
-export default Project;
+export default Projects;
