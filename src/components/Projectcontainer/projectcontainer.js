@@ -1,12 +1,11 @@
 // {project} omdat dit beter is dan props.project
+import './projectcontainer.css'
 function ProjectContainer({project}) {
     return (
         <div className="project-container">
-            <ul>
-                <li>{project.name}</li>
-                <li>{project.description}</li>
-                <li>{project.codestack}</li>
-            </ul>
+                <p>{project.name}</p>
+                <p>{project.description}</p>
+                <p>{project.codestack}</p>
         </div>
      );
 }
