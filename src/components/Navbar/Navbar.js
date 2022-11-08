@@ -8,7 +8,7 @@ function Navbar() {
                     Projects
                     </item></a>
             <a href='#'><item className='Navbar-item'>
-                    About
+                    Skills
                     </item></a>
             <a href='#'><item className='Navbar-item'>
                     Contact
