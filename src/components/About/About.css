@@ -23,3 +23,13 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+
+.about-buttons a{
+    color: black;
+}
+
+.about-buttons{
+    padding-left: 10px;
+
+}
+
