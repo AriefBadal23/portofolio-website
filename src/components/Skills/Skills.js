@@ -1,18 +1,17 @@
-import {skills} from '../portofolio'
-import './Skills.css';
-
+import { skills } from "../portofolio";
+import "./Skills.css";
 
 function Skills() {
-    return ( 
-        skills.map((skill) =>{
-            return (
-            <div className='Skills-section'>
-                <ul>
-                <li>{skill}</li>    
-                </ul>
-            </div>
-         ) })
-     );
+  return (
+    <div className="skills-container">
+        <h1>Skills</h1>
+      <span>
+        {skills.map((skill) => (
+          <p id="skill">{skill}</p>
+        ))}
+      </span>
+    </div>
+  );
 }
 
-export default Skills;
+export default Skills; 
