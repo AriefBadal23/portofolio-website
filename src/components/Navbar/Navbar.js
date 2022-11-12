@@ -4,7 +4,7 @@ function Navbar() {
     return ( 
         <nav className="Navbar">
             <ul>
-            <a href='#'><item className='Navbar-item'>
+            <a href='#container'><item className='Navbar-item'>
                     Projects
                     </item></a>
             <a href='#'><item className='Navbar-item'>
