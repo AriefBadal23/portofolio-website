@@ -1,17 +1,28 @@
-// {project} omdat dit beter is dan props.project
 import "./projectcontainer.css";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button'
 
-
+// {project} omdat dit beter is dan props.project
 function ProjectContainer({ project }) {
+    /* The playVideo function should retrieve the id of the video and play it if the mouse hover over the video */
+    function showHello(){
+        const play_video = document.getElementById(`video_${project.id}`)
+        console.log(project)
+        play_video.play()
+    }
     return (
+        // TODO: bij elke card wordt er een aparte <div> container aangemaakt
         <div id="container">
             <div className="card">
-                <img src={`images/${project.image}`} alt={project.description}></img>
+                {/* bij een eventhandler geen () zetten anders werkt het niet naar behoren */}
+                {/* The video element has now a unique id */}
+                <video id={`video_${project.id}`} muted  width={300} onMouseOver={(id) => showHello(id)} > 
+                    <source type="video/webm" src={`videos/${project.video}`}  />
+                 </video>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>
+                {/* should have title attribute! */}
                 <Button variant="outlined"><GitHubIcon/></Button>
             </div>
         </div>
