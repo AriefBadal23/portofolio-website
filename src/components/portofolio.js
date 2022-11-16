@@ -17,17 +17,21 @@ export const about = {
 
 export const projects = [
  {
+      id: 1,
       name: "Astroids",
       description: "The retro game Astroids made with the library Pygame",
       codestack: "Python 3",
       image: "astroids.png",
+      video: "Astroids.mp4"
     },
  {
+      id: 2,
       name: "Dartsbond mobile app",
       description: "A mobile app created with Ionic React to let visitors view dartevents",
       codestack: "Ionic React",
-      image: "Dartbonds_app.png",
+      video: "Dartsbond_app.mp4",
+      image: "Dartbonds_app.png"
     }
   ]
  
-export const skills = ["Teamplayer", "Python", "Javascript"];
+export const skills = ["Python", "Javascript", "MySQL", "HTML" ];
