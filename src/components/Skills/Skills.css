@@ -1,16 +1,22 @@
-.skills-container{
+.skills-container {
     text-align: center;
-    margin: 100px;
+    margin: 46%;  
+    justify-content: center;
+    display: flexbox;
+
 }
-.skills-container h1{
+
+.skills-container h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #444444;
 }
-#skill{
+
+
+#skill {
     background-color: #fcfcfc;
     width: min-content;
     padding: 10px;
-    border: 1px solid  #0f0e0e;;
+    border: 1px solid #0f0e0e;
     border-radius: 4px;
 }
