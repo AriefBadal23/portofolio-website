@@ -6,12 +6,9 @@ export const header = {
 export const about = {
   name: "Arief Badal",
   role: "Software developer student",
-  description:
-    "Hi, my name is Arief I currently do a Software developer education at Rotterdam Academy.",
-    //  Here I have learned to program with different languages like Python, Javascript and to work with the Scrum methodology",
   social: {
-    linkedin: "https://www.linkedin.com/",
-    github: "https://Github.com",
+    linkedin: "https://www.linkedin.com/in/arief-badal-a5892a19a",
+    github: "https://github.com/AriefBadal23",
   },
 };
 
@@ -21,7 +18,6 @@ export const projects = [
       name: "Astroids",
       description: "The retro game Astroids made with the library Pygame",
       codestack: "Python 3",
-      image: "astroids.png",
       video: "Astroids.mp4"
     },
  {
@@ -30,8 +26,34 @@ export const projects = [
       description: "A mobile app created with Ionic React to let visitors view dartevents",
       codestack: "Ionic React",
       video: "Dartsbond_app.mp4",
-      image: "Dartbonds_app.png"
+    },
+ {
+      id: 3,
+      name: "Particle system",
+      description: "Particle system with bouncing particles which moves to another screen",
+      codestack: "Python",
+      video: "Particle_system.mp4",
     }
   ]
  
-export const skills = ["Python", "Javascript", "MySQL", "HTML" ];
+export const skills = [
+  {
+    skill: "Python",
+    progress: "70%",
+
+  },
+  {
+    skill: "Javascript",
+    progress: "60%",
+
+  },
+  {
+    skill: "MySQL",
+    progress: "60%",
+
+  },
+  {
+    skill: "Flask",
+    progress: "70%",
+  },
+]
