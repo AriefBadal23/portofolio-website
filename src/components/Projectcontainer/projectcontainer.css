@@ -20,7 +20,7 @@
 img {
     width: 100%;
     border-radius: 12px;
-    height: 250px;
+    height: 450px;
     object-fit: cover;
     border-radius: 12px;
     border-color: black;
@@ -52,7 +52,12 @@ img {
     /* add space between the border and the content */
     padding: 28px;
     border-radius: 12px;
+    transition: transform 0.2s linear;
 
+}
+
+.card{
+    transform: translateY(-7px);
 }
 
 .tag {

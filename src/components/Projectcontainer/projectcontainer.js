@@ -22,11 +22,6 @@ function ProjectContainer({ project }) {
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>
-
-                <ul>
-                    <li>{project.tasks}</li>
-                </ul>
-
                 {/* should have title attribute! */}
                 <Button variant="outlined"><GitHubIcon/></Button>
             </div>
