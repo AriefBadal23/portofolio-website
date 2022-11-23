@@ -1,6 +1,6 @@
 .skills-container {
     text-align: center;
-    margin: 46%;  
+    margin-right: 100px;  
     justify-content: center;
     display: flexbox;
 
@@ -10,13 +10,4 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #444444;
-}
-
-
-#skill {
-    background-color: #fcfcfc;
-    width: min-content;
-    padding: 10px;
-    border: 1px solid #0f0e0e;
-    border-radius: 4px;
 }
