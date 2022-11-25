@@ -36,24 +36,5 @@ export const projects = [
     }
   ]
  
-export const skills = [
-  {
-    skill: "Python",
-    progress: "70%",
 
-  },
-  {
-    skill: "Javascript",
-    progress: "60%",
-
-  },
-  {
-    skill: "MySQL",
-    progress: "60%",
-
-  },
-  {
-    skill: "Flask",
-    progress: "70%",
-  },
-]
+  // source: icons https://devicon.dev/
