@@ -16,3 +16,7 @@ a:link{
 /* a:hover{
     background-color: rgb(152, 152, 156);
 } */
+.Navbar-item:hover{
+    text-decoration: underline;
+
+}
