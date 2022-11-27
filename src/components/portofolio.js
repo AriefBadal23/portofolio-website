@@ -16,21 +16,22 @@ export const projects = [
  {
       id: 1,
       name: "Astroids",
-      description: "The retro game Astroids made with the library Pygame",
+      description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
       codestack: "Python 3",
       video: "Astroids.mp4"
     },
  {
       id: 2,
       name: "Dartsbond mobile app",
-      description: "A mobile app created with Ionic React to let visitors view dartevents",
+      description: ["A mobile app created with Ionic React to let visitors view dartevents.\n", "For this project we needed to create a mobile app for the participants to participate for dart events that were hosted in dart cafes."],
       codestack: "Ionic React",
       video: "Dartsbond_app.mp4",
     },
  {
       id: 3,
       name: "Particle system",
-      description: "Particle system with bouncing particles which moves to another screen",
+      description: ["Particle system with bouncing particles which moves to another screen.",
+                   "\n We created this as a team with Pygame.", "\nThe way it works is that the particles will move from one window (laptop screen) to another over a socket connection"],
       codestack: "Python",
       video: "Particle_system.mp4",
     }
