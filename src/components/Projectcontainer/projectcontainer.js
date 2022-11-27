@@ -12,8 +12,8 @@ function ProjectContainer({ project }) {
     }
     return (
         // TODO: bij elke card wordt er een aparte <div> container aangemaakt
-        <div id="container">
-            <div className="card">
+        <div id="demo-container">
+            <div className="demo">
                 {/* bij een eventhandler geen () zetten anders werkt het niet naar behoren */}
                 {/* The video element has now a unique id */}
                 <video id={`video_${project.id}`} muted  width={300} height={300} onMouseOver={(id) => showHello(id)} > 
