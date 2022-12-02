@@ -1,4 +1,4 @@
-.contact-section h1{
+#contact-section h1{
     padding-top: 30px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -7,7 +7,7 @@
 
 }
 
-.contact-section p{
+#contact-section p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 10px;

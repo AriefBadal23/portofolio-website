@@ -5,9 +5,8 @@ import Button from '@mui/material/Button'
 // {project} omdat dit beter is dan props.project
 function ProjectContainer({ project }) {
     /* The playVideo function should retrieve the id of the video and play it if the mouse hover over the video */
-    function showHello(){
+    function Playvideo(){
         const play_video = document.getElementById(`video_${project.id}`)
-        console.log(project)
         play_video.play()
     }
     return (
@@ -16,7 +15,7 @@ function ProjectContainer({ project }) {
             <div className="demo">
                 {/* bij een eventhandler geen () zetten anders werkt het niet naar behoren */}
                 {/* The video element has now a unique id */}
-                <video id={`video_${project.id}`} muted  width={300} height={300} onMouseOver={(id) => showHello(id)} > 
+                <video id={`video_${project.id}`} muted  width={300} height={300} onMouseOver={(id) => Playvideo(id)} > 
                     <source type="video/webm" src={`videos/${project.video}`}  />
                  </video>
                 <span className="tag">{project.codestack}</span>
