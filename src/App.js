@@ -4,7 +4,7 @@ import Skills from './components/Skills/Skills';
 import Header from './components/Header/header';
 import Project from './components/Projects/projects';
 import Navbar from './components/Navbar/Navbar';
-
+import Contact from './components/Contact/Contact'
 
 // about details tonen op scherm 26-okt
 function App() {
@@ -15,6 +15,7 @@ function App() {
       <About/>
       <Project/>
       <Skills/>
+      <Contact/>
     </div>
     
   );
