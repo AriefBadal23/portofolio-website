@@ -1,5 +1,7 @@
 .about-section{
     text-align: center;
+    color: #444444;
+
 }
 #about-intro{
     text-align: center;
@@ -12,7 +14,7 @@
 }
 #about-name{
     text-align: center;
-    color: #2978b5;
+    color: #2978b5 !important;
     font-size: 45pt;
     font-weight: 1200;
     font-family: 'Poppins', sans-serif;
