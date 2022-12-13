@@ -1,10 +1,10 @@
 .about-section{
     font-family: 'Poppins', sans-serif;
-    margin-right: 400px;
     text-align: center;
     color: #444444;
 }
 #about-intro{
+    text-align: center;
     color: #444444;
     font-weight: 1400;
     font-family: 'Poppins', sans-serif;
@@ -12,7 +12,7 @@
 
 
 }
-.about-name{
+#about-name{
     color: #2978b5;
     font-size: 45pt;
     font-weight: 1200;

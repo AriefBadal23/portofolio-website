@@ -11,7 +11,7 @@ function About() {
     } } = about;
     return (
         <div className='about-section'>
-            <h1 id='about-intro'>Hi, I am  <span className='about-name'>{name}.</span></h1>
+            <h1 id='about-intro'>Hi, I am  <span id='about-name'>{name}.</span></h1>
             <h2 className='about-role'>A {role}.</h2>
             <span className='about-description'>
                 <p>Hi, my name is Arief I currently do a Software developer education at Rotterdam Academy.</p>
