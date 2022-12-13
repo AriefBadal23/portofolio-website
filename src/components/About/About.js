@@ -12,8 +12,8 @@ function About() {
     return (
         <div>
             <span className='about-section'>
-                <h1><span id='about-intro'>Hi, I am  </span><span id='about-name'>{name}.</span></h1>
-                <h2 id='about-role'>A {role}.</h2>
+                <div className='about-intro-section'><h1 id><span id='about-intro'>Hi, I am  </span><span id='about-name'>{name}.</span></h1>
+                <h2 id='about-role'>A {role}.</h2></div>
                 <span className='about-description'>
                     <p>Hi, my name is Arief I currently do a Software developer education at Rotterdam Academy.</p>
                     <p>Here I have learned to program with different languages like Python, Javascript and to </p>
