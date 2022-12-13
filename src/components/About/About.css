@@ -3,6 +3,12 @@
     color: #444444;
 
 }
+.about-section a {
+    text-align: center;
+    color: #444444;
+    margin-left: 10px;
+
+}
 .about-intro-section{
     text-align: center !important;
 }
@@ -42,10 +48,8 @@
 }
 
 .about-buttons{
-    margin-top: 50px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 20px
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .about-section p{
