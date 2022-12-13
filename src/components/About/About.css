@@ -1,9 +1,14 @@
-#about-intro{
-    color: #444444;
-    font-weight: 1400;
+.about-section{
     font-family: 'Poppins', sans-serif;
-    font-size: 45pt;
+    margin: auto;
     text-align: center;
+    color: #444444;
+}
+#about-intro{
+    /* color: #444444; */
+    font-weight: 1400;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 45pt;
 
 
 }
@@ -11,14 +16,14 @@
     color: #2978b5;
     font-size: 45pt;
     font-weight: 1200;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     line-height: 1.5;
     
 }
 
 .about-role{
-    color: #444444;
-    font-family: 'Poppins', sans-serif;
+    /* color: #444444; */
+    /* font-family: 'Poppins', sans-serif; */
     font-weight: 100;
     text-decoration: underline;
 }
