@@ -13,7 +13,7 @@ function About() {
         <div>
             <span className='about-section'>
                 <h1 id='about-name'>Hi, I am  <span id='about-name'>{name}.</span></h1>
-                <h2>A {role}.</h2>
+                <h2 id='about-role'>A {role}.</h2>
 
             <span className='about-description'>
                 <p>Hi, my name is Arief I currently do a Software developer education at Rotterdam Academy.</p>
