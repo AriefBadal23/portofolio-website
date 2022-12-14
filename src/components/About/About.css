@@ -48,9 +48,10 @@
 }
 
 .about-buttons{
+    margin: auto;
+    display: flex;
     justify-content: center;
-    margin-right: 10px;
-}
+    }
 
 .about-section p{
     text-align: left;
