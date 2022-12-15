@@ -22,7 +22,6 @@ function ProjectContainer({ project }) {
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>
                 {/* should have title attribute! */}
-                <Button variant="outlined"><GitHubIcon/></Button>
             </div>
         </div>
     );
