@@ -21,7 +21,6 @@ function ProjectContainer({ project }) {
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>
-                {/* should have title attribute! */}
             </div>
         </div>
     );
