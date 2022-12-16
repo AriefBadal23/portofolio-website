@@ -1,2 +1,2 @@
 # Getting Started with Create React App
-My personal Portofolio website cretaed with ReactJS.
+My personal Portofolio website created with ReactJS.
