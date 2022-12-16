@@ -1,6 +1,5 @@
 import "./projectcontainer.css";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import Button from '@mui/material/Button'
+
 
 // {project} omdat dit beter is dan props.project
 function ProjectContainer({ project }) {
