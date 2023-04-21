@@ -93,3 +93,9 @@
     border: #444444 solid;
     width: min-content;
 }
+@media screen and (max-width: 400px) {
+  .skills-container {
+    display: none;
+  }
+  
+}

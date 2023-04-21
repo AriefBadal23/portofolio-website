@@ -20,3 +20,13 @@ a:link{
     text-decoration: underline;
 
 }
+@media screen and (max-width: 400px) {
+    .Navbar{
+        text-align: center;
+    }
+    .contact-nav-button{
+        display: none;
+    }
+    
+  }
+  
