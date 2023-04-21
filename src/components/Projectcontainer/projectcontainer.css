@@ -104,6 +104,7 @@
         box-shadow: 5px 5px #888888;
         margin-bottom: 50px;
     }
+
 }
 @media screen and (max-width: 768) {
     #demo-container {
