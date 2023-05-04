@@ -2,7 +2,7 @@
   text-align: center;
   margin-right: 100px;
   justify-content: center;
-  display: flexbox;
+  display: block;
 }
 
 .skills-container h1 {
@@ -14,12 +14,12 @@
 .skill-icons {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 60px;
+  padding: 20px;
 }
 
 .skill-icons {
   width: max-content;
-  margin: 60px auto;
+  margin: 20px auto;
   color: rgb(255, 255, 255);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -97,5 +97,104 @@
   .skills-container {
     display: none;
   }
+
+}
+@media screen and (max-width: 768px) {
+  .skills-container {
+    text-align: center;
+    margin-right: -30px;
+    justify-content: center;
+    display: block;
+  }
   
+  .skills-container h1 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    float:left;
+    display: none;
+    color: #444444;
+  }
+  
+  .skill-icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+  
+  .skill-icons {
+    width: max-content;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .skill-icons * {
+    padding: 10px;
+    border: #444444 solid;
+    margin: 10px;
+    background-color: #444444;
+  }
+  .python-icon:hover{
+      background-color: #444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .javascript-icon:hover{
+      background-color: #444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .flask-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .react-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .html-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .css-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .mysql-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .sqlalchemy-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #fcfeff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
+  .ionic-icon:hover{
+      background-color: 444444;
+      text-decoration-line: underline;
+      text-decoration: underline #ffffff 2px;
+      border: #444444 solid;
+      width: min-content;
+  }
 }

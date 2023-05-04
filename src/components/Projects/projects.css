@@ -6,3 +6,20 @@
     color: #444444;
 
 }
+
+  
+@media screen and (max-width: 768px) {
+    #project-container-title{
+        margin-top: 150px;
+        /* padding-top: 50px; */
+        display: none;
+        text-align: center;
+        margin-left: 140;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        color: #444444;
+    
+    }
+    
+   
+  }
