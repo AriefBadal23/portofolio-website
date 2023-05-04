@@ -98,7 +98,7 @@
     display: none;
   }
 
-
+}
 @media screen and (max-width: 768px) {
   .skills-container {
     text-align: center;
