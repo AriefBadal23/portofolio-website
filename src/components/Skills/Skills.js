@@ -10,31 +10,31 @@ function Skills() {
         <h1 id="skills-header">Skills</h1>
         <div className="skill-icons">
           <div className="python-icon">
-            <i class="devicon-python-plain-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-python-plain-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="javascript-icon">
-            <i class="devicon-javascript-plain" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-javascript-plain" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="flask-icon">
-            <i class="devicon-flask-original-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-flask-original-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="mysql-icon">
-            <i class="devicon-mysql-plain-wordmark"style={{fontSize:"70pt"}}></i>
+            <i className="devicon-mysql-plain-wordmark"style={{fontSize:"70pt"}}></i>
           </div>
           <div className="react-icon">
-            <i class="devicon-react-original-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-react-original-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="ionic-icon">
-            <i class="devicon-ionic-original-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-ionic-original-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="html-icon">
-            <i class="devicon-html5-plain-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-html5-plain-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="css-icon">
-            <i class="devicon-css3-plain-wordmark" style={{fontSize:"70pt"}}></i>
+            <i className="devicon-css3-plain-wordmark" style={{fontSize:"70pt"}}></i>
           </div>
           <div className="sqlalchemy-icon">
-            <i class="devicon-sqlalchemy-original-wordmark"style={{fontSize:"70pt"}}></i>
+            <i className="devicon-sqlalchemy-original-wordmark"style={{fontSize:"70pt"}}></i>
           </div>
          {/* https://devicon.dev/ */}
   	    </div>

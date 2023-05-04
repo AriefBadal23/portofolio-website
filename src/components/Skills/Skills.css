@@ -2,7 +2,7 @@
   text-align: center;
   margin-right: 100px;
   justify-content: center;
-  display: flexbox;
+  display: block;
 }
 
 .skills-container h1 {
@@ -106,7 +106,7 @@
     text-align: center;
     margin-right: -30px;
     justify-content: center;
-    display: flexbox;
+    display: block;
   }
   
   .skills-container h1 {
