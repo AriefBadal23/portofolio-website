@@ -6,7 +6,7 @@ import "./projects.css";
 function Projects() {
   return (
     <div className="project_container">
-      <h1 id="project-container-title">Projects</h1>
+      <h1 id="project-container-title">My projects</h1>
       {projects.map((item) => (
         <ProjectContainer project={item} />
       ))}

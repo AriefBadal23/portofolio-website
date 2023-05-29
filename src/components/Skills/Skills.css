@@ -26,71 +26,71 @@
 
 .skill-icons * {
   padding: 10px;
-  border: #444444 solid;
+  border: #2978b5 solid;
   margin: 10px;
-  background-color: #444444;
+  background-color: #2978b5;
 }
 .python-icon:hover{
-    background-color: #444444;
+    background-color: #2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .javascript-icon:hover{
-    background-color: #444444;
+    background-color: #2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .flask-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .react-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .html-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .css-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .mysql-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .sqlalchemy-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #fcfeff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 .ionic-icon:hover{
-    background-color: 444444;
+    background-color: 2978b5;
     text-decoration-line: underline;
     text-decoration: underline #ffffff 2px;
-    border: #444444 solid;
+    border: #2978b5 solid;
     width: min-content;
 }
 @media screen and (max-width: 400px) {
