@@ -9,9 +9,17 @@ function ProjectContainer({ project }) {
         play_video.play();
     }
     return (
-        <div id="demo-container" className=" flex-col flex ml-20 float-left mt-[4vh] p-5 border-2 bg-white shadow-slate-50 shadow-inner h-[620px] mr-12  " >
-            <div>
-
+        // TODO: bij elke card wordt er een aparte <div> container aangemaakt
+        <div id="demo-container">
+            <div className="demo-preview">
+                {/* bij een eventhandler geen () zetten anders werkt het niet naar behoren */}
+                {/* The video element has now a unique id */}
+                <video id={`video_${project.id}`} muted width={300} height={300} onMouseOver={(id) => Playvideo(id)} >
+                    <source type="video/webm" src={`videos/${project.video}`} />
+                </video>
+                <span className="tag">{project.codestack}</span>
+                <div className="name">{project.name}</div>
+                <p>{project.description}</p>
             </div>
         </div>
     );
