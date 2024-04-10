@@ -1,7 +1,7 @@
 import { about } from './portofolio';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import GitHubIcon from '@mui/icons-material/GitHub';
-// import Button from '@mui/material/Button';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import Button from '@mui/material/Button';
 
 
 function About() {
@@ -23,8 +23,11 @@ function About() {
 
                 {/* <button><a href='#'>Resume</a></button> */}
                 {/* <div className='about-buttons'> */}
-                {/* <a href={github}><Button variant='outlined'>GitHub<GitHubIcon /></Button></a> */}
-                {/* <a href={linkedin}><Button variant='outlined'>LinkedIn<LinkedInIcon /></Button></a> */}
+                <div className='flex flex-grow justify-center p-5 m-3'>
+                    <a href={github}><Button variant='outlined'>GitHub<GitHubIcon /></Button></a>
+                    <a href={linkedin}><Button variant='outlined'>LinkedIn<LinkedInIcon /></Button></a>
+
+                </div>
 
                 {/* </div> */}
             </span>

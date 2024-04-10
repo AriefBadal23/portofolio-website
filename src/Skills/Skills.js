@@ -8,14 +8,8 @@ function TechStack({ image }) {
     // the id attribute is not unique! (seen error in the console)  
 
     <div>
-      <h1 id="demo" className="text-3xl text-center justify-center  ">TechStack</h1>
+      <h1 className="text-3xl text-center mt-5">TechStack</h1>
       <div className="flex flex-row flex-wrap justify-center p-5 bg-white ">
-        <div className="text-center relative ">
-          <div className=" hover:bg-sky-700 h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="100px" width="100px" alt="" className="block bg-white p-2 mx-auto" />
-          </div>
-          <p className="text-xl">ReactJS</p>
-        </div>
         <div className="text-center relative">
           <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
 
@@ -33,9 +27,14 @@ function TechStack({ image }) {
         <div className="text-center relative">
           <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="100px" width="100px" alt="" className="block bg-white p-2 mx-auto" />
-
           </div>
-          <p className="text-xl">Python</p>
+          <p className="text-xl mb-20">Python</p>
+        </div>
+        <div className="text-center relative">
+          <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" height="100px" width="100px" alt="" className="block bg-white p-2 mx-auto" />
+          </div>
+          <p className="text-xl mb-20">Flask</p>
         </div>
       </div>
     </div >
