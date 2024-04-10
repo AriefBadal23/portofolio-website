@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ariefbadal23.github.io/portofolio-website",
+  "homepage": "https://AriefBadal23.github.io/portofolio-website",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
