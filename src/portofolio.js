@@ -20,7 +20,7 @@ export const projects = [
     codestack: "Python",
     url: "https://www.google.com",
     video: "Watchlist.mp4",
-    image: "imageservice.png"
+    image: "image.png"
   }
   ,
   {
@@ -30,7 +30,7 @@ export const projects = [
     codestack: "Coming soon",
     url: "",
     video: "coming_soon.mp4",
-    image: "imageservice.png"
+    image: "22.png"
   }
   ,
   {

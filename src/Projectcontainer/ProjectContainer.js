@@ -21,8 +21,9 @@ function ProjectContainer({ project }) {
                         <source type="video/webm" src={`videos/${project.video}`} />
                     </video>
                 </div>
-                <div className="block md:hidden">
-                    <img src={project.image} alt={project.name} />
+                <div id={`project_${project.id}`} className="block md:hidden">
+                    <img src= {`images/${project.image}`} alt={project.name} />
+                    {console.log(project.image)}
                 </div>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
