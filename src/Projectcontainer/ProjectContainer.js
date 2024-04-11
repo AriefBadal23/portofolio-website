@@ -14,9 +14,16 @@ function ProjectContainer({ project }) {
             <div className="demo-preview">
                 {/* bij een eventhandler geen () zetten anders werkt het niet naar behoren */}
                 {/* The video element has now a unique id */}
-                <video id={`video_${project.id}`} muted width={300} height={300} onMouseOver={(id) => Playvideo(id)} >
-                    <source type="video/webm" src={`videos/${project.video}`} />
-                </video>
+
+                <div className="demo-preview hidden md:block">
+
+                    <video id={`video_${project.id}`} muted width={300} height={300} onMouseOver={(id) => Playvideo(id)} >
+                        <source type="video/webm" src={`videos/${project.video}`} />
+                    </video>
+                </div>
+                <div className="block md:hidden">
+                    <img src={`${project.image}`} alt={ project.name} />
+                </div>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>

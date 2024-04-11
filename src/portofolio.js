@@ -19,7 +19,8 @@ export const projects = [
     description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
     codestack: "Python 3",
     url: "",
-    video: "Astroids.mp4"
+    video: "Astroids.mp4",
+    image: "image.png"
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ export const projects = [
     codestack: "Ionic React",
     url: "",
     video: "Dartsbond_app.mp4",
+    image: "image.png"
   },
   {
     id: 3,
@@ -35,7 +37,8 @@ export const projects = [
     description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
     codestack: "Python 3",
     url: "",
-    video: "Astroids.mp"
+    video: "Astroids.mp4",
+    image: "image.png"
   }
 ];
 

@@ -1,5 +1,5 @@
 import { projects } from "./portofolio";
-import ProjectContainer from "../Projectcontainer/ProjectContainer";
+import ProjectContainer from "./Projectcontainer/ProjectContainer";
 
 
 function Projects() {
