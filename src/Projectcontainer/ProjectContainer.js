@@ -22,7 +22,7 @@ function ProjectContainer({ project }) {
                     </video>
                 </div>
                 <div className="block md:hidden">
-                    <img src={`${project.image}`} alt={ project.name} />
+                    <img src={project.image} alt={project.name} />
                 </div>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>

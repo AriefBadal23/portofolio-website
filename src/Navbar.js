@@ -1,7 +1,7 @@
 
 function Navbar() {
     return (
-        <nav className="text-right text-[#444444] no-underline lg:m-6 font-medium  ">
+        <nav className=" hidden   md:block text-right text-[#444444] no-underline lg:m-6 font-medium  ">
             <ul>
                 {/* TODO: #container has changed to project-header so the anchor will work */}
                 <a href='#demo'><item className="ml-2 hover:underline">

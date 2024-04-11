@@ -15,30 +15,32 @@ export const about = {
 export const projects = [
   {
     id: 1,
-    name: "Astroids",
-    description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
-    codestack: "Python 3",
-    url: "",
-    video: "Astroids.mp4",
-    image: "image.png"
-  },
+    name: "Movies2Watch",
+    description: ["A basic CRUD application which shows recommended movies for you to watch. Created with Flask as the backend and React as the Frontend. Currently I'm adding more features to it and I also want to improve the API of it."],
+    codestack: "Python",
+    url: "https://www.google.com",
+    video: "Watchlist.mp4",
+    image: ""
+  }
+  ,
   {
     id: 2,
-    name: "Dartsbond mobile app",
-    description: ["A mobile app created with Ionic React to let visitors view dartevents.\n", "For this project we needed to create a mobile app for the participants to participate for dart events that were hosted in dart cafes."],
-    codestack: "Ionic React",
+    name: "Image service API",
+    description: ["For my graduation project, I created an image service microservice. This was meant to resize the images and to generate thumbnails. I have worked with tools such as Django, Flask, Docker, Postman and React. "],
+    codestack: "Coming soon",
     url: "",
-    video: "Dartsbond_app.mp4",
-    image: "image.png"
-  },
+    video: "coming_soon.mp4",
+    image: "imageservice.png"
+  }
+  ,
   {
     id: 3,
-    name: "Astroids",
-    description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
-    codestack: "Python 3",
+    name: "Image service- API",
+    description: ["For my graduation project, I created an image service. This was meant to resize the images and to generate thumbnails. I have worked with tools such as Django, Flask, Docker, Postman and React. "],
+    codestack: "Coming soon",
     url: "",
-    video: "Astroids.mp4",
-    image: "image.png"
+    video: "coming_soon.mp4",
+    image: ""
   }
 ];
 

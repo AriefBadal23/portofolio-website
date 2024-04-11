@@ -8,7 +8,7 @@ function TechStack({ image }) {
     // the id attribute is not unique! (seen error in the console)  
 
     <div>
-      <h1 className="text-3xl text-center mt-5">TechStack</h1>
+      <h1 className="text-4xl font-bold text-center italic mt-5">TechStack</h1>
       <div className="flex flex-row flex-wrap justify-center p-5 bg-white ">
         <div className="text-center relative">
           <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
