@@ -36,6 +36,29 @@ function TechStack({ image }) {
           </div>
           <p className="text-xl mb-20">Flask</p>
         </div>
+        <div className="text-center relative">
+          <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
+
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-plain.svg" height="100px" width="100px" alt="" className="block bg-white p-2 mx-auto" />
+
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+          </div>
+          <p className="text-xl mb-20">Postman</p>
+        </div>
+        <div className="text-center relative">
+          <div className="h-[150px] w-[150px] m-1 bg-inherit border-solid rounded-xl shadow-md flex justify-center items-center overflow-hidden">
+
+
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="100px" width="100px" alt="" className="block bg-white p-2 mx-auto" />
+
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+          </div>
+          <p className="text-xl mb-20">Docker</p>
+        </div>
       </div>
     </div >
   );
