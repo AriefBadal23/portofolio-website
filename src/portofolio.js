@@ -15,21 +15,23 @@ export const about = {
 export const projects = [
   {
     id: 1,
-    name: "Movies2Watch",
-    description: ["A basic CRUD application which shows recommended movies for you to watch. Created with Flask as the backend and React as the Frontend. Currently I'm adding more features to it and I also want to improve the API of it."],
-    codestack: "Python",
-    url: "https://www.google.com",
-    video: "Watchlist.mp4",
+    name: "Astroids",
+    description: ["The retro game Astroids made with the library Pygame.", "\nOur first schoolproject made with Python.", "\nBesides the main game we created a main and gameover menu, added a bonusitem for more points and added music/soundeffects."],
+    codestack: "Python 3",
+    url: "",
+    video: "Astroids.mp4",
     image: "image.png"
-  }
+
+
+  },
   ,
   {
     id: 2,
     name: "Image service- API",
     description: ["For my graduation project, I created an image service. This was meant to resize the images and to generate thumbnails. I have worked with tools such as Django, Flask, Docker, Postman and React. "],
-    codestack: "Python",
+    codestack: "Python 3",
     url: "",
-    video: "coming_soon.mp4",
+    video: "",
     image: "imageservice.png"
   }
   ,
