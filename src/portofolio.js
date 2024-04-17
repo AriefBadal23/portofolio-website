@@ -41,7 +41,7 @@ export const projects = [
     description: [""],
     codestack: "Coming soon",
     url: "",
-    video: "coming_soon.mp4",
+    video: "",
     image: ""
   }
 ];
