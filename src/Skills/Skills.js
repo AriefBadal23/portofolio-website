@@ -7,7 +7,7 @@ function TechStack({ image }) {
     // changed classname to id to make the anchor work in the navbar when clicked
     // the id attribute is not unique! (seen error in the console)  
 
-    <div>
+    <div id="skills">
       <h1 className="text-4xl font-bold text-center italic mt-5">TechStack</h1>
       <div className="flex flex-row flex-wrap justify-center p-5 bg-white ">
         <div className="text-center relative">

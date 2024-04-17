@@ -9,7 +9,7 @@ function About() {
         linkedin, github
     } } = about;
     return (
-        <div>
+        <div id="contact">
             <span className='about-section'>
                 <div className='text-center p-7'>
                     <h1>
