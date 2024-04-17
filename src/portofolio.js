@@ -42,7 +42,7 @@ export const projects = [
     codestack: "Coming soon",
     url: "",
     video: "",
-    image: ""
+    image: "Soon.png"
   }
 ];
 
