@@ -1,4 +1,5 @@
 import "./projectcontainer.css";
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 
 // {project} omdat dit beter is dan props.project
@@ -17,17 +18,23 @@ function ProjectContainer({ project }) {
 
                 <div className="demo-preview hidden md:block">
 
-                    <video id={`video_${project.id}`} muted width={300} height={300} onMouseOver={(id) => Playvideo(id)} >
+                    {project.video ? <video id={`video_${project.id}`} muted width={300} height={300} onMouseOver={(id) => Playvideo(id)} >
                         <source type="video/webm" src={`videos/${project.video}`} />
-                    </video>
+                    </video> :
+                        <div>
+                            <img src={`images/${project.image}`} alt={project.name} />
+                        </div>
+                    }
                 </div>
                 <div id={`project_${project.id}`} className="block md:hidden">
-                    <img src= {`images/${project.image}`} alt={project.name} />
+                    <img src={`images/${project.image}`} alt={project.name} />
                     {console.log(project.image)}
                 </div>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
                 <p>{project.description}</p>
+                {project.url ?
+                    <a href={project.url}><OpenInNewIcon /></a> : <div></div>}
             </div>
         </div>
     );

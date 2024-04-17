@@ -22,10 +22,11 @@ function About() {
                     <div className='max-w-xl mx-auto'>
                         <p className='whitespace-pre-line'>
                             Hi, my name is Arief, I am a recently graduated Associate Degree <b>Software Development</b> student. I'm very interested in backend development,
-                            I like to learn more about RestAPI's, Microservices and Software development in general programming.Besides <b>Python</b>
-                            I learned to work with <b>JavaScript</b> and <b>MySQL</b>. Please feel free to browse through my projects and feel free to contact me if you have any questions.
-                        </p>
+                            I like to learn more about RestAPI's, Microservices and Software development in general.
+                            The languages I have worked with are <b>Python</b>, <b>JavaScript</b> and <b>C#</b>, with frameworks like ReactJS, <b>Flask</b>, <b>Django</b> and other tools like <b>Docker</b> and <b>Postman</b>.
 
+                        </p>
+                        <p>If you have any questions please feel free to contact me via LinkedIn.</p>
                     </div>
                 </div>
 
@@ -37,7 +38,6 @@ function About() {
 
                 </div>
 
-                {/* </div> */}
             </span >
         </div >
     );
