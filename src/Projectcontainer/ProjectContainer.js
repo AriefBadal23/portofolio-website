@@ -27,8 +27,7 @@ function ProjectContainer({ project }) {
                     }
                 </div>
                 <div id={`project_${project.id}`} className="block md:hidden">
-                    <img src={`images/${project.image}`} alt={project.name} />
-                    {console.log(project.image)}
+                    {project.image ? <img src={`images/${project.image}`} alt={project.name} /> : <img src={`images/Soon.png`} alt="coming soon" />}
                 </div>
                 <span className="tag">{project.codestack}</span>
                 <div className="name">{project.name}</div>
