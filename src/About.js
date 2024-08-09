@@ -2,6 +2,7 @@ import { about } from './portofolio';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
+import './About.css';
 
 
 function About() {
@@ -13,6 +14,7 @@ function About() {
             <span className='about-section'>
                 <div className='text-center p-7'>
                     <h1>
+                        
                         <span className='text-gray-700 font-extrabold text-6xl'>Hi, I am </span>
                         <span className='text-[#2978b5] font-extrabold text-6xl'>{name}.</span>
                     </h1>
@@ -33,9 +35,30 @@ function About() {
                 {/* <button><a href='#'>Resume</a></button> */}
                 {/* <div className='about-buttons'> */}
                 <div className='flex flex-grow justify-center p-5 m-3'>
-                    <a href={github}><Button variant='outlined'>GitHub<GitHubIcon /></Button></a>
-                    <a href={linkedin}><Button variant='outlined'>LinkedIn<LinkedInIcon /></Button></a>
-
+                    {/* <a href={github}><Button variant='outlined'>GitHub<GitHubIcon /></Button></a> */}
+                    {/* <a href={linkedin}><Button variant='outlined'>LinkedIn<LinkedInIcon /></Button></a> */}
+                    <ul class="wrapper">
+                        <li class="icon twitter">
+                            <span class="tooltip">Twitter</span>
+                            <span><i class="fab fa-twitter"></i></span>
+                        </li>
+                        <li class="icon instagram">
+                            <span class="tooltip">Instagram</span>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </li>
+                        <li class="icon github">
+                            <span class="tooltip">Github</span>
+                            <span><i class="fab fa-github"></i></span>
+                        </li>
+                        <li class="icon youtube">
+                            <span class="tooltip">Youtube</span>
+                            <span><i class="fab fa-youtube"></i></span>
+                        </li>
+                        <li class="icon youtube">
+                            <span class="tooltip">Linkedin</span>
+                            <span><i class="fab fa-linkedin"></i></span>
+                        </li>
+                    </ul>
                 </div>
 
             </span >
