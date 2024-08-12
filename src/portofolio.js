@@ -7,7 +7,7 @@ export const about = {
   name: "Arief Badal",
   role: "Software developer student",
   social: {
-    linkedin: "https://www.linkedin.com/in/arief-badal-a5892a19a",
+    linkedin: "https://www.linkedin.com/in/arief-badal/",
     github: "https://github.com/AriefBadal23",
   },
 };
