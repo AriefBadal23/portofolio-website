@@ -1,1 +1,1 @@
-A personal/ portofoliowebsite created with ReactJS, TailwindCSS to showcast my work as a developer
+A personal/ portofolio website created with ReactJS, TailwindCSS to showcast my work as a developer
