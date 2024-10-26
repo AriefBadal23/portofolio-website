@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio-website/static/css/main.66f98747.css",
-    "main.js": "/portofolio-website/static/js/main.32574271.js",
+    "main.js": "/portofolio-website/static/js/main.2ba3a5bf.js",
     "static/js/787.fa9cb370.chunk.js": "/portofolio-website/static/js/787.fa9cb370.chunk.js",
     "static/media/fa-solid-900.ttf": "/portofolio-website/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/portofolio-website/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/portofolio-website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/portofolio-website/index.html",
     "main.66f98747.css.map": "/portofolio-website/static/css/main.66f98747.css.map",
-    "main.32574271.js.map": "/portofolio-website/static/js/main.32574271.js.map",
+    "main.2ba3a5bf.js.map": "/portofolio-website/static/js/main.2ba3a5bf.js.map",
     "787.fa9cb370.chunk.js.map": "/portofolio-website/static/js/787.fa9cb370.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66f98747.css",
-    "static/js/main.32574271.js"
+    "static/js/main.2ba3a5bf.js"
   ]
 }
