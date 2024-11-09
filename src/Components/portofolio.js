@@ -28,22 +28,13 @@ export const projects = [
   {
     id: 2,
     name: "Image service- API",
-    description: ["For my graduation project, I created an image service. This was meant to resize the images and to generate thumbnails. I have worked with tools such as Django, Flask, Docker, Postman and React. "],
+    description: ["For my graduation project, I created an image service. This was meant to resize the images and to generate thumbnails. By doing this the performance also increased significantly. For this project I made use of  Django, Flask, Docker, Postman and React. "],
     codestack: "Python 3",
     url: "",
     video: "",
     image: "imageservice.png"
   }
-  ,
-  {
-    id: 3,
-    name: "Coming Soon",
-    description: [""],
-    codestack: "Coming soon",
-    url: "",
-    video: "",
-    image: "Soon.png"
-  }
+  
 ];
 
 

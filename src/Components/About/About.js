@@ -1,4 +1,4 @@
-import { about } from './portofolio';
+import { about } from '../portofolio';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Button from '@mui/material/Button';
@@ -21,7 +21,7 @@ function About() {
                     <h2 className='text-4xl p-6'>A {role}.</h2>
                 </div>
                 <div className='text-center'>
-                    <div className='max-w-xl mx-auto'>
+                    <div className='max-w-xl mx-auto text-[14px] md:text-[16px]'>
                         <p className='whitespace-pre-line'>
                             Hi, my name is Arief, I am a recently graduated Associate Degree <b>Software Development</b> student. I'm very interested in backend development,
                             I like to learn more about RestAPI's, Microservices and Software development in general.

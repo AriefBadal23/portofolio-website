@@ -1,5 +1,5 @@
 // import './header.css';
-import { header } from './portofolio';
+import { header } from '../portofolio';
 function Header() {
   const { title } = header;
   return (

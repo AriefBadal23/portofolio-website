@@ -1,9 +1,9 @@
-import Header from './header';
-import Navbar from './Navbar';
-import About from './About';
-import Projects from './project';
-import Contact from './Contact';
-import TechStack from './Skills/Skills';
+import Navbar from './Components/NavBar/Navbar';
+import Contact from './Components/Contact/Contact';
+import TechStack from './Components/Skills/Skills';
+import About from './Components/About/About';
+import Projects from './Components/Projects/Project';
+import Header from './Components/Header/header';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Projects />
+      <Projects/>
       <TechStack />
     </div>
   );
